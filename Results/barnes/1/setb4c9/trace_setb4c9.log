@@ -1,0 +1,21 @@
+START SOLVING | Test=setb4c9 | LB=857 | Timeout=4792.2618634700775
+
+--- STEP 1 ---
+Target Limit: 914
+Time left before solve: 4790.42s
+Result (is_sat): True
+Conflicts in step: 422569
+Propagations in step: 2265064104
+Found Real Makespan: 914
+Pushing New Limit to: 913
+
+--- STEP 2 ---
+Target Limit: 913
+Time left before solve: 4568.31s
+Result (is_sat): False
+Conflicts in step: 15952
+Propagations in step: 123444667
+UNSAT at current limit. Final status: OPTIMAL
+
+FINAL STATUS: OPTIMAL
+TOTAL ELAPSED TIME: 237.86s

@@ -1,0 +1,2 @@
+Problem,Số job,số máy,Upper bound,Lower bound,Number of clause,Number of variable,Makespan,Status,Runtime
+mk08.txt,20,10,528,523,4335758,274519,523,OPTIMAL,22715.27

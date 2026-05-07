@@ -1,0 +1,30 @@
+START SOLVING | Test=mk07 | LB=133 | Timeout=4797.740105628967
+
+--- STEP 1 ---
+Target Limit: 157
+Time left before solve: 4797.20s
+Result (is_sat): True
+Conflicts in step: 11098191
+Propagations in step: 10269160636
+Found Real Makespan: 157
+Pushing New Limit to: 156
+
+--- STEP 2 ---
+Target Limit: 156
+Time left before solve: 3391.50s
+Result (is_sat): True
+Conflicts in step: 7305622
+Propagations in step: 6580466534
+Found Real Makespan: 156
+Pushing New Limit to: 155
+
+--- STEP 3 ---
+Target Limit: 155
+Time left before solve: 2254.97s
+Result (is_sat): None
+Conflicts in step: 11984690
+Propagations in step: 11246579710
+INTERRUPTED BY TIMER OR TIMEOUT EXCEEDED.
+
+FINAL STATUS: TIME_OUT
+TOTAL ELAPSED TIME: 4797.85s

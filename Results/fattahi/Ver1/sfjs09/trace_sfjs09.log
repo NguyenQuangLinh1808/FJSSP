@@ -1,0 +1,13 @@
+START SOLVING | Test=sfjs09 | LB=210 | Timeout=4799.947792768478
+
+--- STEP 1 ---
+Target Limit: 210
+Time left before solve: 4799.93s
+Result (is_sat): True
+Conflicts in step: 77
+Propagations in step: 18680
+Found Real Makespan: 210
+Hit Lower Bound (210). Terminating.
+
+FINAL STATUS: OPTIMAL
+TOTAL ELAPSED TIME: 0.02s

@@ -1,0 +1,75 @@
+START SOLVING | Test=mk02 | LB=24 | Timeout=4799.819237470627
+
+--- STEP 1 ---
+Target Limit: 32
+Time left before solve: 4799.77s
+Result (is_sat): True
+Conflicts in step: 340
+Propagations in step: 71101
+Found Real Makespan: 32
+Pushing New Limit to: 31
+
+--- STEP 2 ---
+Target Limit: 31
+Time left before solve: 4799.75s
+Result (is_sat): True
+Conflicts in step: 2097
+Propagations in step: 338497
+Found Real Makespan: 31
+Pushing New Limit to: 30
+
+--- STEP 3 ---
+Target Limit: 30
+Time left before solve: 4799.69s
+Result (is_sat): True
+Conflicts in step: 1231
+Propagations in step: 174212
+Found Real Makespan: 30
+Pushing New Limit to: 29
+
+--- STEP 4 ---
+Target Limit: 29
+Time left before solve: 4799.66s
+Result (is_sat): True
+Conflicts in step: 11240
+Propagations in step: 1475125
+Found Real Makespan: 29
+Pushing New Limit to: 28
+
+--- STEP 5 ---
+Target Limit: 28
+Time left before solve: 4799.49s
+Result (is_sat): True
+Conflicts in step: 47672
+Propagations in step: 6254455
+Found Real Makespan: 28
+Pushing New Limit to: 27
+
+--- STEP 6 ---
+Target Limit: 27
+Time left before solve: 4798.60s
+Result (is_sat): True
+Conflicts in step: 68416
+Propagations in step: 10493273
+Found Real Makespan: 27
+Pushing New Limit to: 26
+
+--- STEP 7 ---
+Target Limit: 26
+Time left before solve: 4796.77s
+Result (is_sat): True
+Conflicts in step: 756268
+Propagations in step: 139970460
+Found Real Makespan: 26
+Pushing New Limit to: 25
+
+--- STEP 8 ---
+Target Limit: 25
+Time left before solve: 4754.26s
+Result (is_sat): False
+Conflicts in step: 9522901
+Propagations in step: 1839816495
+UNSAT at current limit. Final status: OPTIMAL
+
+FINAL STATUS: OPTIMAL
+TOTAL ELAPSED TIME: 1673.95s

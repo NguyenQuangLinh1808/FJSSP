@@ -1,0 +1,12 @@
+START SOLVING | Test=mt10xyz | LB=655 | Timeout=4796.326653718948
+
+--- STEP 1 ---
+Target Limit: 847
+Time left before solve: 4795.50s
+Result (is_sat): False
+Conflicts in step: 0
+Propagations in step: 0
+UNSAT at current limit. Final status: UNSAT
+
+FINAL STATUS: UNSAT
+TOTAL ELAPSED TIME: 0.96s

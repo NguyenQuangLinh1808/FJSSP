@@ -1,0 +1,13 @@
+{
+    "test_name": "abz8",
+    "model_applied": "best",
+    "run_index": 0,
+    "lb": 506,
+    "ub": 654,
+    "status": "TIME_OUT",
+    "time_seconds": 4800.342041730881,
+    "makespan": -1,
+    "schedule": null,
+    "num_clauses": 3197173,
+    "num_vars": 255461
+}

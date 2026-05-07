@@ -1,0 +1,13 @@
+START SOLVING | Test=sfjs07 | LB=397 | Timeout=4799.834626197815
+
+--- STEP 1 ---
+Target Limit: 397
+Time left before solve: 4799.79s
+Result (is_sat): True
+Conflicts in step: 0
+Propagations in step: 3300
+Found Real Makespan: 397
+Hit Lower Bound (397). Terminating.
+
+FINAL STATUS: OPTIMAL
+TOTAL ELAPSED TIME: 0.05s

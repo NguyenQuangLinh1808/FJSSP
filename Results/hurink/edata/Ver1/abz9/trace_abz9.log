@@ -1,0 +1,21 @@
+START SOLVING | Test=abz9 | LB=497 | Timeout=4792.268246173859
+
+--- STEP 1 ---
+Target Limit: 668
+Time left before solve: 4790.46s
+Result (is_sat): True
+Conflicts in step: 3107647
+Propagations in step: 20940102807
+Found Real Makespan: 668
+Pushing New Limit to: 667
+
+--- STEP 2 ---
+Target Limit: 667
+Time left before solve: 2640.39s
+Result (is_sat): None
+Conflicts in step: 2436078
+Propagations in step: 19844207482
+INTERRUPTED BY TIMER OR TIMEOUT EXCEEDED.
+
+FINAL STATUS: TIME_OUT
+TOTAL ELAPSED TIME: 4792.56s

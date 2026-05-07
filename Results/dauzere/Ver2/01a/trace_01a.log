@@ -1,0 +1,12 @@
+START SOLVING | Test=01a | LB=2505 | Timeout=4760.7090280056
+
+--- STEP 1 ---
+Target Limit: 2518
+Time left before solve: 4751.97s
+Result (is_sat): None
+Conflicts in step: 3506797
+Propagations in step: 48912834222
+INTERRUPTED BY TIMER OR TIMEOUT EXCEEDED.
+
+FINAL STATUS: TIME_OUT
+TOTAL ELAPSED TIME: 4762.40s

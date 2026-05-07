@@ -1,0 +1,48 @@
+START SOLVING | Test=setb4xyz | LB=838 | Timeout=4793.368031263351
+
+--- STEP 1 ---
+Target Limit: 905
+Time left before solve: 4791.74s
+Result (is_sat): True
+Conflicts in step: 209472
+Propagations in step: 888810415
+Found Real Makespan: 905
+Pushing New Limit to: 904
+
+--- STEP 2 ---
+Target Limit: 904
+Time left before solve: 4730.98s
+Result (is_sat): True
+Conflicts in step: 12670
+Propagations in step: 76631731
+Found Real Makespan: 904
+Pushing New Limit to: 903
+
+--- STEP 3 ---
+Target Limit: 903
+Time left before solve: 4724.48s
+Result (is_sat): True
+Conflicts in step: 3396
+Propagations in step: 19107627
+Found Real Makespan: 903
+Pushing New Limit to: 902
+
+--- STEP 4 ---
+Target Limit: 902
+Time left before solve: 4722.67s
+Result (is_sat): True
+Conflicts in step: 6948
+Propagations in step: 44000480
+Found Real Makespan: 902
+Pushing New Limit to: 901
+
+--- STEP 5 ---
+Target Limit: 901
+Time left before solve: 4718.84s
+Result (is_sat): False
+Conflicts in step: 8267
+Propagations in step: 48924212
+UNSAT at current limit. Final status: OPTIMAL
+
+FINAL STATUS: OPTIMAL
+TOTAL ELAPSED TIME: 78.77s

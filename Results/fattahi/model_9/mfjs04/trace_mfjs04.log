@@ -1,0 +1,23 @@
+START SOLVING | Test=mfjs04 | LB=496 | Timeout=999999
+
+--- STEP 1 ---
+Target Limit: 554
+Stats | Số biến = 8427 | Số mệnh đề = 101154
+Time left before solve: 999998.92s
+Result (is_sat): True
+Conflicts in step: 2373
+Propagations in step: 2095603
+Found Real Makespan: 554
+Pushing New Limit to: 553
+
+--- STEP 2 ---
+Target Limit: 553
+Stats | Số biến = 8427 | Số mệnh đề = 101173
+Time left before solve: 999998.75s
+Result (is_sat): False
+Conflicts in step: 960
+Propagations in step: 1089411
+UNSAT at current limit. Final status: OPTIMAL
+
+FINAL STATUS: OPTIMAL
+TOTAL ELAPSED TIME: 0.33s

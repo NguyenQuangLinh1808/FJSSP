@@ -1,0 +1,21 @@
+START SOLVING | Test=sfjs08 | LB=216 | Timeout=4799.927086830139
+
+--- STEP 1 ---
+Target Limit: 253
+Time left before solve: 4799.91s
+Result (is_sat): True
+Conflicts in step: 43
+Propagations in step: 16923
+Found Real Makespan: 253
+Pushing New Limit to: 252
+
+--- STEP 2 ---
+Target Limit: 252
+Time left before solve: 4799.90s
+Result (is_sat): False
+Conflicts in step: 61
+Propagations in step: 17489
+UNSAT at current limit. Final status: OPTIMAL
+
+FINAL STATUS: OPTIMAL
+TOTAL ELAPSED TIME: 0.03s

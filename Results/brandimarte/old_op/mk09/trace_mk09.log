@@ -1,0 +1,525 @@
+START SOLVING | Test=mk09 | LB=299 | Timeout=4786.890293836594
+
+--- STEP 1 ---
+Target Limit: 369
+Time left before solve: 4783.82s
+Result (is_sat): True
+Conflicts in step: 947621
+Propagations in step: 3196421876
+Found Real Makespan: 369
+Pushing New Limit to: 368
+
+--- STEP 2 ---
+Target Limit: 368
+Time left before solve: 4522.78s
+Result (is_sat): True
+Conflicts in step: 96917
+Propagations in step: 378890241
+Found Real Makespan: 368
+Pushing New Limit to: 367
+
+--- STEP 3 ---
+Target Limit: 367
+Time left before solve: 4488.23s
+Result (is_sat): True
+Conflicts in step: 161827
+Propagations in step: 641548201
+Found Real Makespan: 367
+Pushing New Limit to: 366
+
+--- STEP 4 ---
+Target Limit: 366
+Time left before solve: 4428.45s
+Result (is_sat): True
+Conflicts in step: 15
+Propagations in step: 346162
+Found Real Makespan: 366
+Pushing New Limit to: 365
+
+--- STEP 5 ---
+Target Limit: 365
+Time left before solve: 4427.95s
+Result (is_sat): True
+Conflicts in step: 26297
+Propagations in step: 112041229
+Found Real Makespan: 365
+Pushing New Limit to: 364
+
+--- STEP 6 ---
+Target Limit: 364
+Time left before solve: 4417.50s
+Result (is_sat): True
+Conflicts in step: 63196
+Propagations in step: 228986473
+Found Real Makespan: 364
+Pushing New Limit to: 363
+
+--- STEP 7 ---
+Target Limit: 363
+Time left before solve: 4395.80s
+Result (is_sat): True
+Conflicts in step: 25612
+Propagations in step: 104235205
+Found Real Makespan: 363
+Pushing New Limit to: 362
+
+--- STEP 8 ---
+Target Limit: 362
+Time left before solve: 4385.94s
+Result (is_sat): True
+Conflicts in step: 120631
+Propagations in step: 470488045
+Found Real Makespan: 362
+Pushing New Limit to: 361
+
+--- STEP 9 ---
+Target Limit: 361
+Time left before solve: 4341.64s
+Result (is_sat): True
+Conflicts in step: 110
+Propagations in step: 627204
+Found Real Makespan: 361
+Pushing New Limit to: 360
+
+--- STEP 10 ---
+Target Limit: 360
+Time left before solve: 4341.10s
+Result (is_sat): True
+Conflicts in step: 5
+Propagations in step: 191003
+Found Real Makespan: 360
+Pushing New Limit to: 359
+
+--- STEP 11 ---
+Target Limit: 359
+Time left before solve: 4340.65s
+Result (is_sat): True
+Conflicts in step: 16
+Propagations in step: 348372
+Found Real Makespan: 359
+Pushing New Limit to: 358
+
+--- STEP 12 ---
+Target Limit: 358
+Time left before solve: 4340.18s
+Result (is_sat): True
+Conflicts in step: 10608
+Propagations in step: 40212873
+Found Real Makespan: 358
+Pushing New Limit to: 357
+
+--- STEP 13 ---
+Target Limit: 357
+Time left before solve: 4336.19s
+Result (is_sat): True
+Conflicts in step: 49713
+Propagations in step: 201650723
+Found Real Makespan: 357
+Pushing New Limit to: 356
+
+--- STEP 14 ---
+Target Limit: 356
+Time left before solve: 4317.04s
+Result (is_sat): True
+Conflicts in step: 188343
+Propagations in step: 705543262
+Found Real Makespan: 356
+Pushing New Limit to: 355
+
+--- STEP 15 ---
+Target Limit: 355
+Time left before solve: 4250.52s
+Result (is_sat): True
+Conflicts in step: 185160
+Propagations in step: 699029590
+Found Real Makespan: 355
+Pushing New Limit to: 354
+
+--- STEP 16 ---
+Target Limit: 354
+Time left before solve: 4183.40s
+Result (is_sat): True
+Conflicts in step: 99562
+Propagations in step: 368714529
+Found Real Makespan: 354
+Pushing New Limit to: 353
+
+--- STEP 17 ---
+Target Limit: 353
+Time left before solve: 4147.79s
+Result (is_sat): True
+Conflicts in step: 45594
+Propagations in step: 167466353
+Found Real Makespan: 353
+Pushing New Limit to: 352
+
+--- STEP 18 ---
+Target Limit: 352
+Time left before solve: 4131.20s
+Result (is_sat): True
+Conflicts in step: 33058
+Propagations in step: 123751679
+Found Real Makespan: 352
+Pushing New Limit to: 351
+
+--- STEP 19 ---
+Target Limit: 351
+Time left before solve: 4118.85s
+Result (is_sat): True
+Conflicts in step: 110749
+Propagations in step: 420106764
+Found Real Makespan: 351
+Pushing New Limit to: 350
+
+--- STEP 20 ---
+Target Limit: 350
+Time left before solve: 4077.57s
+Result (is_sat): True
+Conflicts in step: 74405
+Propagations in step: 285586745
+Found Real Makespan: 350
+Pushing New Limit to: 349
+
+--- STEP 21 ---
+Target Limit: 349
+Time left before solve: 4049.15s
+Result (is_sat): True
+Conflicts in step: 13
+Propagations in step: 279112
+Found Real Makespan: 349
+Pushing New Limit to: 348
+
+--- STEP 22 ---
+Target Limit: 348
+Time left before solve: 4048.69s
+Result (is_sat): True
+Conflicts in step: 568
+Propagations in step: 2160955
+Found Real Makespan: 348
+Pushing New Limit to: 347
+
+--- STEP 23 ---
+Target Limit: 347
+Time left before solve: 4048.02s
+Result (is_sat): True
+Conflicts in step: 78
+Propagations in step: 577955
+Found Real Makespan: 347
+Pushing New Limit to: 346
+
+--- STEP 24 ---
+Target Limit: 346
+Time left before solve: 4047.53s
+Result (is_sat): True
+Conflicts in step: 120272
+Propagations in step: 442675672
+Found Real Makespan: 346
+Pushing New Limit to: 345
+
+--- STEP 25 ---
+Target Limit: 345
+Time left before solve: 4003.18s
+Result (is_sat): True
+Conflicts in step: 89248
+Propagations in step: 303982410
+Found Real Makespan: 345
+Pushing New Limit to: 344
+
+--- STEP 26 ---
+Target Limit: 344
+Time left before solve: 3972.44s
+Result (is_sat): True
+Conflicts in step: 237096
+Propagations in step: 835478106
+Found Real Makespan: 344
+Pushing New Limit to: 343
+
+--- STEP 27 ---
+Target Limit: 343
+Time left before solve: 3889.87s
+Result (is_sat): True
+Conflicts in step: 213566
+Propagations in step: 757356881
+Found Real Makespan: 343
+Pushing New Limit to: 342
+
+--- STEP 28 ---
+Target Limit: 342
+Time left before solve: 3813.72s
+Result (is_sat): True
+Conflicts in step: 50128
+Propagations in step: 189147291
+Found Real Makespan: 342
+Pushing New Limit to: 341
+
+--- STEP 29 ---
+Target Limit: 341
+Time left before solve: 3794.25s
+Result (is_sat): True
+Conflicts in step: 303779
+Propagations in step: 983412877
+Found Real Makespan: 341
+Pushing New Limit to: 340
+
+--- STEP 30 ---
+Target Limit: 340
+Time left before solve: 3691.80s
+Result (is_sat): True
+Conflicts in step: 1
+Propagations in step: 178086
+Found Real Makespan: 340
+Pushing New Limit to: 339
+
+--- STEP 31 ---
+Target Limit: 339
+Time left before solve: 3691.29s
+Result (is_sat): True
+Conflicts in step: 72370
+Propagations in step: 243126365
+Found Real Makespan: 339
+Pushing New Limit to: 338
+
+--- STEP 32 ---
+Target Limit: 338
+Time left before solve: 3665.16s
+Result (is_sat): True
+Conflicts in step: 41470
+Propagations in step: 127058860
+Found Real Makespan: 338
+Pushing New Limit to: 337
+
+--- STEP 33 ---
+Target Limit: 337
+Time left before solve: 3651.03s
+Result (is_sat): True
+Conflicts in step: 125778
+Propagations in step: 383298331
+Found Real Makespan: 337
+Pushing New Limit to: 336
+
+--- STEP 34 ---
+Target Limit: 336
+Time left before solve: 3609.73s
+Result (is_sat): True
+Conflicts in step: 63551
+Propagations in step: 206068503
+Found Real Makespan: 336
+Pushing New Limit to: 335
+
+--- STEP 35 ---
+Target Limit: 335
+Time left before solve: 3587.35s
+Result (is_sat): True
+Conflicts in step: 63783
+Propagations in step: 172723940
+Found Real Makespan: 335
+Pushing New Limit to: 334
+
+--- STEP 36 ---
+Target Limit: 334
+Time left before solve: 3568.55s
+Result (is_sat): True
+Conflicts in step: 169411
+Propagations in step: 504800668
+Found Real Makespan: 334
+Pushing New Limit to: 333
+
+--- STEP 37 ---
+Target Limit: 333
+Time left before solve: 3515.33s
+Result (is_sat): True
+Conflicts in step: 200606
+Propagations in step: 585294442
+Found Real Makespan: 333
+Pushing New Limit to: 332
+
+--- STEP 38 ---
+Target Limit: 332
+Time left before solve: 3452.38s
+Result (is_sat): True
+Conflicts in step: 178171
+Propagations in step: 516502882
+Found Real Makespan: 332
+Pushing New Limit to: 331
+
+--- STEP 39 ---
+Target Limit: 331
+Time left before solve: 3397.04s
+Result (is_sat): True
+Conflicts in step: 467777
+Propagations in step: 1327864100
+Found Real Makespan: 331
+Pushing New Limit to: 330
+
+--- STEP 40 ---
+Target Limit: 330
+Time left before solve: 3254.06s
+Result (is_sat): True
+Conflicts in step: 518360
+Propagations in step: 1505246118
+Found Real Makespan: 330
+Pushing New Limit to: 329
+
+--- STEP 41 ---
+Target Limit: 329
+Time left before solve: 3089.69s
+Result (is_sat): True
+Conflicts in step: 496942
+Propagations in step: 1421236724
+Found Real Makespan: 329
+Pushing New Limit to: 328
+
+--- STEP 42 ---
+Target Limit: 328
+Time left before solve: 2930.41s
+Result (is_sat): True
+Conflicts in step: 50907
+Propagations in step: 137010169
+Found Real Makespan: 328
+Pushing New Limit to: 327
+
+--- STEP 43 ---
+Target Limit: 327
+Time left before solve: 2914.33s
+Result (is_sat): True
+Conflicts in step: 67897
+Propagations in step: 185826772
+Found Real Makespan: 327
+Pushing New Limit to: 326
+
+--- STEP 44 ---
+Target Limit: 326
+Time left before solve: 2893.77s
+Result (is_sat): True
+Conflicts in step: 829641
+Propagations in step: 2368078442
+Found Real Makespan: 326
+Pushing New Limit to: 325
+
+--- STEP 45 ---
+Target Limit: 325
+Time left before solve: 2623.43s
+Result (is_sat): True
+Conflicts in step: 157666
+Propagations in step: 436990051
+Found Real Makespan: 325
+Pushing New Limit to: 324
+
+--- STEP 46 ---
+Target Limit: 324
+Time left before solve: 2572.84s
+Result (is_sat): True
+Conflicts in step: 170017
+Propagations in step: 467116316
+Found Real Makespan: 324
+Pushing New Limit to: 323
+
+--- STEP 47 ---
+Target Limit: 323
+Time left before solve: 2518.21s
+Result (is_sat): True
+Conflicts in step: 866985
+Propagations in step: 2391782786
+Found Real Makespan: 323
+Pushing New Limit to: 322
+
+--- STEP 48 ---
+Target Limit: 322
+Time left before solve: 2239.75s
+Result (is_sat): True
+Conflicts in step: 60511
+Propagations in step: 170072703
+Found Real Makespan: 322
+Pushing New Limit to: 321
+
+--- STEP 49 ---
+Target Limit: 321
+Time left before solve: 2218.77s
+Result (is_sat): True
+Conflicts in step: 940365
+Propagations in step: 2623176902
+Found Real Makespan: 321
+Pushing New Limit to: 320
+
+--- STEP 50 ---
+Target Limit: 320
+Time left before solve: 1903.48s
+Result (is_sat): True
+Conflicts in step: 293827
+Propagations in step: 814800361
+Found Real Makespan: 320
+Pushing New Limit to: 319
+
+--- STEP 51 ---
+Target Limit: 319
+Time left before solve: 1804.39s
+Result (is_sat): True
+Conflicts in step: 425986
+Propagations in step: 1114884837
+Found Real Makespan: 319
+Pushing New Limit to: 318
+
+--- STEP 52 ---
+Target Limit: 318
+Time left before solve: 1668.58s
+Result (is_sat): True
+Conflicts in step: 1535293
+Propagations in step: 4036755386
+Found Real Makespan: 318
+Pushing New Limit to: 317
+
+--- STEP 53 ---
+Target Limit: 317
+Time left before solve: 1161.73s
+Result (is_sat): True
+Conflicts in step: 768784
+Propagations in step: 1914829297
+Found Real Makespan: 317
+Pushing New Limit to: 316
+
+--- STEP 54 ---
+Target Limit: 316
+Time left before solve: 913.35s
+Result (is_sat): True
+Conflicts in step: 511782
+Propagations in step: 1251431168
+Found Real Makespan: 316
+Pushing New Limit to: 315
+
+--- STEP 55 ---
+Target Limit: 315
+Time left before solve: 752.25s
+Result (is_sat): True
+Conflicts in step: 595642
+Propagations in step: 1555910976
+Found Real Makespan: 315
+Pushing New Limit to: 314
+
+--- STEP 56 ---
+Target Limit: 314
+Time left before solve: 545.49s
+Result (is_sat): True
+Conflicts in step: 897961
+Propagations in step: 2104235015
+Found Real Makespan: 314
+Pushing New Limit to: 313
+
+--- STEP 57 ---
+Target Limit: 313
+Time left before solve: 267.26s
+Result (is_sat): True
+Conflicts in step: 617399
+Propagations in step: 1519773582
+Found Real Makespan: 313
+Pushing New Limit to: 312
+
+--- STEP 58 ---
+Target Limit: 312
+Time left before solve: 62.33s
+Result (is_sat): None
+Conflicts in step: 189300
+Propagations in step: 443082568
+INTERRUPTED BY TIMER OR TIMEOUT EXCEEDED.
+
+FINAL STATUS: TIME_OUT
+TOTAL ELAPSED TIME: 4787.35s

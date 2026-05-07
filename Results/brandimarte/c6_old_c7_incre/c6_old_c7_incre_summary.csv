@@ -1,0 +1,5 @@
+Problem,Số job,số máy,Upper bound,Lower bound,Number of clause,Number of variable,Makespan,Status,Runtime
+mk01.txt,10,6,42,36,42417,5701,40,OPTIMAL,0.17
+mk02.txt,10,6,32,24,50072,5482,26,OPTIMAL,1801.06
+mk03.txt,15,8,211,204,1947085,80265,204,OPTIMAL,15.37
+mk04.txt,15,8,81,48,170261,17922,60,OPTIMAL,8.75

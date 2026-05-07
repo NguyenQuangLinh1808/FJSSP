@@ -1,0 +1,13 @@
+{
+    "test_name": "mt10cc",
+    "model_applied": "model_6",
+    "run_index": 0,
+    "lb": 655,
+    "ub": 910,
+    "status": "UNSAT",
+    "time_seconds": 5.91045069694519,
+    "makespan": -1,
+    "schedule": null,
+    "num_clauses": 2362825,
+    "num_vars": 125509
+}

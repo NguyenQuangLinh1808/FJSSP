@@ -1,0 +1,5 @@
+Problem,Số job,số máy,Upper bound,Lower bound,Number of clause,Number of variable,Makespan,Status,Runtime
+k1,4,5,11,11,1634,430,11,OPTIMAL,0.01
+k2,10,7,11,11,20963,1699,11,OPTIMAL,0.08
+k3,10,10,7,7,21774,1979,7,OPTIMAL,0.09
+k4,15,10,12,12,115565,4427,12,OPTIMAL,0.98

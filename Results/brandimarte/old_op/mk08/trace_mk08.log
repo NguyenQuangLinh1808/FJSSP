@@ -1,0 +1,12 @@
+START SOLVING | Test=mk08 | LB=523 | Timeout=4790.654150009155
+
+--- STEP 1 ---
+Target Limit: 528
+Time left before solve: 4788.51s
+Result (is_sat): None
+Conflicts in step: 27242094
+Propagations in step: 51856396536
+INTERRUPTED BY TIMER OR TIMEOUT EXCEEDED.
+
+FINAL STATUS: TIME_OUT
+TOTAL ELAPSED TIME: 4791.02s

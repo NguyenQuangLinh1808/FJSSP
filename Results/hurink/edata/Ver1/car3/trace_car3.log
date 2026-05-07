@@ -1,0 +1,21 @@
+START SOLVING | Test=car3 | LB=5597 | Timeout=4497.578308105469
+
+--- STEP 1 ---
+Target Limit: 6856
+Time left before solve: 4371.37s
+Result (is_sat): True
+Conflicts in step: 577402
+Propagations in step: 10868070972
+Found Real Makespan: 6856
+Pushing New Limit to: 6855
+
+--- STEP 2 ---
+Target Limit: 6855
+Time left before solve: 2365.14s
+Result (is_sat): False
+Conflicts in step: 24
+Propagations in step: 805120
+UNSAT at current limit. Final status: OPTIMAL
+
+FINAL STATUS: OPTIMAL
+TOTAL ELAPSED TIME: 2301.80s

@@ -1,0 +1,21 @@
+START SOLVING | Test=mt10xyz | LB=655 | Timeout=4795.958954811096
+
+--- STEP 1 ---
+Target Limit: 847
+Time left before solve: 4794.98s
+Result (is_sat): True
+Conflicts in step: 76368
+Propagations in step: 231395601
+Found Real Makespan: 847
+Pushing New Limit to: 846
+
+--- STEP 2 ---
+Target Limit: 846
+Time left before solve: 4779.38s
+Result (is_sat): False
+Conflicts in step: 311
+Propagations in step: 1104995
+UNSAT at current limit. Final status: OPTIMAL
+
+FINAL STATUS: OPTIMAL
+TOTAL ELAPSED TIME: 16.78s

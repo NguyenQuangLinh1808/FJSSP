@@ -1,0 +1,50 @@
+{
+    "test_name": "sfjs01",
+    "model_applied": "best",
+    "run_index": 0,
+    "lb": 66,
+    "ub": 66,
+    "status": "OPTIMAL",
+    "time_seconds": 0.2318253517150879,
+    "makespan": 66,
+    "schedule": [
+        {
+            "id": 2,
+            "job_idx": 1,
+            "op_idx": 0,
+            "machine": 0,
+            "start": 0,
+            "duration": 45,
+            "end": 45
+        },
+        {
+            "id": 0,
+            "job_idx": 0,
+            "op_idx": 0,
+            "machine": 1,
+            "start": 1,
+            "duration": 37,
+            "end": 38
+        },
+        {
+            "id": 1,
+            "job_idx": 0,
+            "op_idx": 1,
+            "machine": 1,
+            "start": 38,
+            "duration": 24,
+            "end": 62
+        },
+        {
+            "id": 3,
+            "job_idx": 1,
+            "op_idx": 1,
+            "machine": 0,
+            "start": 45,
+            "duration": 21,
+            "end": 66
+        }
+    ],
+    "num_clauses": 1532,
+    "num_vars": 313
+}

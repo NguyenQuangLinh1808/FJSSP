@@ -1,0 +1,13 @@
+START SOLVING | Test=k3 | LB=7 | Timeout=4799.932412147522
+
+--- STEP 1 ---
+Target Limit: 7
+Time left before solve: 4799.92s
+Result (is_sat): True
+Conflicts in step: 91
+Propagations in step: 9052
+Found Real Makespan: 7
+Hit Lower Bound (7). Terminating.
+
+FINAL STATUS: OPTIMAL
+TOTAL ELAPSED TIME: 0.02s

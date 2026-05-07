@@ -1,0 +1,13 @@
+{
+    "test_name": "04a",
+    "model_applied": "best",
+    "run_index": 0,
+    "lb": 2503,
+    "ub": 2503,
+    "status": "TIME_OUT",
+    "time_seconds": 4802.494092941284,
+    "makespan": -1,
+    "schedule": null,
+    "num_clauses": 21284894,
+    "num_vars": 815178
+}

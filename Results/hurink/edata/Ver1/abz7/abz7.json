@@ -1,0 +1,13 @@
+{
+    "test_name": "abz7",
+    "model_applied": "best",
+    "run_index": 0,
+    "lb": 492,
+    "ub": 638,
+    "status": "TIME_OUT",
+    "time_seconds": 4800.886307954788,
+    "makespan": -1,
+    "schedule": null,
+    "num_clauses": 3096798,
+    "num_vars": 250740
+}

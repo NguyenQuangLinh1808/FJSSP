@@ -1,0 +1,12 @@
+START SOLVING | Test=abz8 | LB=506 | Timeout=4792.651961803436
+
+--- STEP 1 ---
+Target Limit: 654
+Time left before solve: 4790.83s
+Result (is_sat): None
+Conflicts in step: 5720378
+Propagations in step: 40556020823
+INTERRUPTED BY TIMER OR TIMEOUT EXCEEDED.
+
+FINAL STATUS: TIME_OUT
+TOTAL ELAPSED TIME: 4792.94s

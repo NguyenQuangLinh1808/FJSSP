@@ -1,0 +1,13 @@
+START SOLVING | Test=sfjs01 | LB=66 | Timeout=4799.774159669876
+
+--- STEP 1 ---
+Target Limit: 66
+Time left before solve: 4799.77s
+Result (is_sat): True
+Conflicts in step: 4
+Propagations in step: 505
+Found Real Makespan: 66
+Hit Lower Bound (66). Terminating.
+
+FINAL STATUS: OPTIMAL
+TOTAL ELAPSED TIME: 0.01s

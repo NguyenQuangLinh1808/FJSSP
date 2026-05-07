@@ -1,0 +1,102 @@
+START SOLVING | Test=abz5 | LB=859 | Timeout=4793.6704614162445
+
+--- STEP 1 ---
+Target Limit: 1176
+Time left before solve: 4792.02s
+Result (is_sat): True
+Conflicts in step: 57970
+Propagations in step: 207633433
+Found Real Makespan: 1176
+Pushing New Limit to: 1175
+
+--- STEP 2 ---
+Target Limit: 1175
+Time left before solve: 4776.05s
+Result (is_sat): True
+Conflicts in step: 2
+Propagations in step: 126946
+Found Real Makespan: 1175
+Pushing New Limit to: 1174
+
+--- STEP 3 ---
+Target Limit: 1174
+Time left before solve: 4775.80s
+Result (is_sat): True
+Conflicts in step: 0
+Propagations in step: 125009
+Found Real Makespan: 1174
+Pushing New Limit to: 1173
+
+--- STEP 4 ---
+Target Limit: 1173
+Time left before solve: 4775.58s
+Result (is_sat): True
+Conflicts in step: 1
+Propagations in step: 125273
+Found Real Makespan: 1173
+Pushing New Limit to: 1172
+
+--- STEP 5 ---
+Target Limit: 1172
+Time left before solve: 4775.35s
+Result (is_sat): True
+Conflicts in step: 1
+Propagations in step: 239788
+Found Real Makespan: 1172
+Pushing New Limit to: 1171
+
+--- STEP 6 ---
+Target Limit: 1171
+Time left before solve: 4775.12s
+Result (is_sat): True
+Conflicts in step: 2
+Propagations in step: 125377
+Found Real Makespan: 1171
+Pushing New Limit to: 1170
+
+--- STEP 7 ---
+Target Limit: 1170
+Time left before solve: 4774.88s
+Result (is_sat): True
+Conflicts in step: 0
+Propagations in step: 124497
+Found Real Makespan: 1170
+Pushing New Limit to: 1169
+
+--- STEP 8 ---
+Target Limit: 1169
+Time left before solve: 4774.67s
+Result (is_sat): True
+Conflicts in step: 0
+Propagations in step: 124375
+Found Real Makespan: 1169
+Pushing New Limit to: 1168
+
+--- STEP 9 ---
+Target Limit: 1168
+Time left before solve: 4774.44s
+Result (is_sat): True
+Conflicts in step: 1
+Propagations in step: 124369
+Found Real Makespan: 1168
+Pushing New Limit to: 1167
+
+--- STEP 10 ---
+Target Limit: 1167
+Time left before solve: 4774.19s
+Result (is_sat): True
+Conflicts in step: 0
+Propagations in step: 124137
+Found Real Makespan: 1167
+Pushing New Limit to: 1166
+
+--- STEP 11 ---
+Target Limit: 1166
+Time left before solve: 4773.95s
+Result (is_sat): False
+Conflicts in step: 7503
+Propagations in step: 37119829
+UNSAT at current limit. Final status: OPTIMAL
+
+FINAL STATUS: OPTIMAL
+TOTAL ELAPSED TIME: 23.12s

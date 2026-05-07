@@ -1,0 +1,57 @@
+START SOLVING | Test=mk08 | LB=523 | Timeout=4789.1166751384735
+
+--- STEP 1 ---
+Target Limit: 528
+Time left before solve: 4786.53s
+Result (is_sat): True
+Conflicts in step: 5501715
+Propagations in step: 14242945833
+Found Real Makespan: 528
+Pushing New Limit to: 527
+
+--- STEP 2 ---
+Target Limit: 527
+Time left before solve: 3717.16s
+Result (is_sat): True
+Conflicts in step: 2104649
+Propagations in step: 4539962480
+Found Real Makespan: 527
+Pushing New Limit to: 526
+
+--- STEP 3 ---
+Target Limit: 526
+Time left before solve: 3311.28s
+Result (is_sat): True
+Conflicts in step: 2852478
+Propagations in step: 6443127193
+Found Real Makespan: 526
+Pushing New Limit to: 525
+
+--- STEP 4 ---
+Target Limit: 525
+Time left before solve: 2705.23s
+Result (is_sat): True
+Conflicts in step: 7109045
+Propagations in step: 16290782987
+Found Real Makespan: 525
+Pushing New Limit to: 524
+
+--- STEP 5 ---
+Target Limit: 524
+Time left before solve: 1041.39s
+Result (is_sat): True
+Conflicts in step: 3908270
+Propagations in step: 9151175178
+Found Real Makespan: 524
+Pushing New Limit to: 523
+
+--- STEP 6 ---
+Target Limit: 523
+Time left before solve: 1.64s
+Result (is_sat): None
+Conflicts in step: 6731
+Propagations in step: 14059422
+INTERRUPTED BY TIMER OR TIMEOUT EXCEEDED.
+
+FINAL STATUS: TIME_OUT
+TOTAL ELAPSED TIME: 4789.41s

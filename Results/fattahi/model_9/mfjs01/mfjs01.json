@@ -1,0 +1,11 @@
+{
+    "test_name": "mfjs01",
+    "model_applied": "model_9",
+    "lb": 403,
+    "ub": 468,
+    "status": "OPTIMAL",
+    "time_seconds": 0.14592552185058594,
+    "makespan": 468,
+    "num_clauses": 33673,
+    "num_vars": 4478
+}

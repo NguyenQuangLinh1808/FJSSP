@@ -1,0 +1,21 @@
+START SOLVING | Test=k4 | LB=10 | Timeout=4799.749482393265
+
+--- STEP 1 ---
+Target Limit: 11
+Time left before solve: 4799.71s
+Result (is_sat): True
+Conflicts in step: 64003
+Propagations in step: 6397504
+Found Real Makespan: 11
+Pushing New Limit to: 10
+
+--- STEP 2 ---
+Target Limit: 10
+Time left before solve: 4798.79s
+Result (is_sat): False
+Conflicts in step: 204920
+Propagations in step: 33429769
+UNSAT at current limit. Final status: OPTIMAL
+
+FINAL STATUS: OPTIMAL
+TOTAL ELAPSED TIME: 12.64s

@@ -1,0 +1,13 @@
+{
+    "test_name": "mt10xy",
+    "model_applied": "model_6",
+    "run_index": 0,
+    "lb": 655,
+    "ub": 905,
+    "status": "UNSAT",
+    "time_seconds": 5.437995433807373,
+    "makespan": -1,
+    "schedule": null,
+    "num_clauses": 2332413,
+    "num_vars": 124009
+}

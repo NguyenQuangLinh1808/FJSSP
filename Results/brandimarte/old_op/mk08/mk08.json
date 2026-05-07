@@ -1,0 +1,13 @@
+{
+    "test_name": "mk08",
+    "model_applied": "old_optimal",
+    "run_index": 0,
+    "lb": 523,
+    "ub": 528,
+    "status": "TIME_OUT",
+    "time_seconds": 4800.438814401627,
+    "makespan": -1,
+    "schedule": null,
+    "num_clauses": 4335638,
+    "num_vars": 274519
+}

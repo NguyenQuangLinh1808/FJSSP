@@ -1,0 +1,39 @@
+START SOLVING | Test=mt10cc | LB=655 | Timeout=4794.1108865737915
+
+--- STEP 1 ---
+Target Limit: 910
+Time left before solve: 4792.95s
+Result (is_sat): True
+Conflicts in step: 75623
+Propagations in step: 244464530
+Found Real Makespan: 910
+Pushing New Limit to: 909
+
+--- STEP 2 ---
+Target Limit: 909
+Time left before solve: 4774.15s
+Result (is_sat): True
+Conflicts in step: 4
+Propagations in step: 145440
+Found Real Makespan: 909
+Pushing New Limit to: 908
+
+--- STEP 3 ---
+Target Limit: 908
+Time left before solve: 4773.98s
+Result (is_sat): True
+Conflicts in step: 4807
+Propagations in step: 23012384
+Found Real Makespan: 908
+Pushing New Limit to: 907
+
+--- STEP 4 ---
+Target Limit: 907
+Time left before solve: 4772.02s
+Result (is_sat): False
+Conflicts in step: 18330
+Propagations in step: 91620536
+UNSAT at current limit. Final status: OPTIMAL
+
+FINAL STATUS: OPTIMAL
+TOTAL ELAPSED TIME: 29.72s

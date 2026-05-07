@@ -1,0 +1,2 @@
+Problem,Số job,số máy,Upper bound,Lower bound,Number of clause,Number of variable,Makespan,Status,Runtime
+mt10c1,10,11,927,655,2459957,130599,927,OPTIMAL,84.29

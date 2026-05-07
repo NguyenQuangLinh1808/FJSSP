@@ -1,0 +1,12 @@
+START SOLVING | Test=mk11 | LB=594 | Timeout=4786.739014387131
+
+--- STEP 1 ---
+Target Limit: 649
+Time left before solve: 4783.44s
+Result (is_sat): None
+Conflicts in step: 9190110
+Propagations in step: 48815800529
+INTERRUPTED BY TIMER OR TIMEOUT EXCEEDED.
+
+FINAL STATUS: TIME_OUT
+TOTAL ELAPSED TIME: 4787.26s

@@ -1,0 +1,13 @@
+START SOLVING | Test=k4 | LB=12 | Timeout=4799.613579034805
+
+--- STEP 1 ---
+Target Limit: 12
+Time left before solve: 4799.55s
+Result (is_sat): True
+Conflicts in step: 32393
+Propagations in step: 2948913
+Found Real Makespan: 12
+Hit Lower Bound (12). Terminating.
+
+FINAL STATUS: OPTIMAL
+TOTAL ELAPSED TIME: 0.59s

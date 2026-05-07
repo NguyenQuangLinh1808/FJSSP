@@ -1,0 +1,13 @@
+{
+    "test_name": "car2",
+    "model_applied": "best",
+    "run_index": 0,
+    "lb": 5929,
+    "ub": 6455,
+    "status": "TIME_OUT",
+    "time_seconds": 4972.386824131012,
+    "makespan": -1,
+    "schedule": null,
+    "num_clauses": 109621204,
+    "num_vars": 746230
+}

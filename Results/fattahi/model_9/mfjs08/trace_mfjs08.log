@@ -1,0 +1,16 @@
+START SOLVING | Test=mfjs08 | LB=764 | Timeout=999999
+
+--- STEP 1 ---
+Target Limit: 884
+Stats | Số biến = 26944 | Số mệnh đề = 403528
+Time left before solve: 999998.72s
+Result (is_sat): True
+Conflicts in step: 34400
+Propagations in step: 50819780
+Found Real Makespan: 884
+Pushing New Limit to: 883
+
+--- STEP 2 ---
+Target Limit: 883
+Stats | Số biến = 26944 | Số mệnh đề = 403546
+Time left before solve: 999985.30s

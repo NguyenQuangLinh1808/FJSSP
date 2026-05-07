@@ -1,0 +1,282 @@
+START SOLVING | Test=mk06 | LB=33 | Timeout=1798.2797982692719
+
+--- STEP 1 ---
+Target Limit: 86
+Time left before solve: 1797.72s
+Result (is_sat): True
+Conflicts in step: 4225
+Propagations in step: 1609789
+Found Real Makespan: 86
+Pushing New Limit to: 85
+
+--- STEP 2 ---
+Target Limit: 85
+Time left before solve: 1797.26s
+Result (is_sat): True
+Conflicts in step: 178
+Propagations in step: 81969
+Found Real Makespan: 85
+Pushing New Limit to: 84
+
+--- STEP 3 ---
+Target Limit: 84
+Time left before solve: 1797.19s
+Result (is_sat): True
+Conflicts in step: 1542
+Propagations in step: 1780457
+Found Real Makespan: 84
+Pushing New Limit to: 83
+
+--- STEP 4 ---
+Target Limit: 83
+Time left before solve: 1796.70s
+Result (is_sat): True
+Conflicts in step: 2461
+Propagations in step: 1126899
+Found Real Makespan: 83
+Pushing New Limit to: 82
+
+--- STEP 5 ---
+Target Limit: 82
+Time left before solve: 1796.41s
+Result (is_sat): True
+Conflicts in step: 890
+Propagations in step: 585012
+Found Real Makespan: 82
+Pushing New Limit to: 81
+
+--- STEP 6 ---
+Target Limit: 81
+Time left before solve: 1796.28s
+Result (is_sat): True
+Conflicts in step: 249
+Propagations in step: 119519
+Found Real Makespan: 81
+Pushing New Limit to: 80
+
+--- STEP 7 ---
+Target Limit: 80
+Time left before solve: 1796.21s
+Result (is_sat): True
+Conflicts in step: 7756
+Propagations in step: 4162965
+Found Real Makespan: 80
+Pushing New Limit to: 79
+
+--- STEP 8 ---
+Target Limit: 79
+Time left before solve: 1794.35s
+Result (is_sat): True
+Conflicts in step: 1
+Propagations in step: 13271
+Found Real Makespan: 79
+Pushing New Limit to: 78
+
+--- STEP 9 ---
+Target Limit: 78
+Time left before solve: 1794.25s
+Result (is_sat): True
+Conflicts in step: 2855
+Propagations in step: 832376
+Found Real Makespan: 78
+Pushing New Limit to: 77
+
+--- STEP 10 ---
+Target Limit: 77
+Time left before solve: 1793.97s
+Result (is_sat): True
+Conflicts in step: 8037
+Propagations in step: 3094149
+Found Real Makespan: 77
+Pushing New Limit to: 76
+
+--- STEP 11 ---
+Target Limit: 76
+Time left before solve: 1793.31s
+Result (is_sat): True
+Conflicts in step: 1677
+Propagations in step: 627637
+Found Real Makespan: 76
+Pushing New Limit to: 75
+
+--- STEP 12 ---
+Target Limit: 75
+Time left before solve: 1793.05s
+Result (is_sat): True
+Conflicts in step: 2343
+Propagations in step: 3071400
+Found Real Makespan: 75
+Pushing New Limit to: 74
+
+--- STEP 13 ---
+Target Limit: 74
+Time left before solve: 1791.81s
+Result (is_sat): True
+Conflicts in step: 2000
+Propagations in step: 1118358
+Found Real Makespan: 74
+Pushing New Limit to: 73
+
+--- STEP 14 ---
+Target Limit: 73
+Time left before solve: 1791.57s
+Result (is_sat): True
+Conflicts in step: 1808
+Propagations in step: 977387
+Found Real Makespan: 73
+Pushing New Limit to: 72
+
+--- STEP 15 ---
+Target Limit: 72
+Time left before solve: 1791.31s
+Result (is_sat): True
+Conflicts in step: 7715
+Propagations in step: 3151242
+Found Real Makespan: 72
+Pushing New Limit to: 71
+
+--- STEP 16 ---
+Target Limit: 71
+Time left before solve: 1790.65s
+Result (is_sat): True
+Conflicts in step: 2852
+Propagations in step: 988256
+Found Real Makespan: 71
+Pushing New Limit to: 70
+
+--- STEP 17 ---
+Target Limit: 70
+Time left before solve: 1790.42s
+Result (is_sat): True
+Conflicts in step: 7457
+Propagations in step: 4703159
+Found Real Makespan: 70
+Pushing New Limit to: 69
+
+--- STEP 18 ---
+Target Limit: 69
+Time left before solve: 1789.30s
+Result (is_sat): True
+Conflicts in step: 2969
+Propagations in step: 921558
+Found Real Makespan: 69
+Pushing New Limit to: 68
+
+--- STEP 19 ---
+Target Limit: 68
+Time left before solve: 1788.98s
+Result (is_sat): True
+Conflicts in step: 7334
+Propagations in step: 3285576
+Found Real Makespan: 68
+Pushing New Limit to: 67
+
+--- STEP 20 ---
+Target Limit: 67
+Time left before solve: 1788.28s
+Result (is_sat): True
+Conflicts in step: 7957
+Propagations in step: 3855346
+Found Real Makespan: 67
+Pushing New Limit to: 66
+
+--- STEP 21 ---
+Target Limit: 66
+Time left before solve: 1786.65s
+Result (is_sat): True
+Conflicts in step: 8039
+Propagations in step: 4114903
+Found Real Makespan: 66
+Pushing New Limit to: 65
+
+--- STEP 22 ---
+Target Limit: 65
+Time left before solve: 1785.66s
+Result (is_sat): True
+Conflicts in step: 7897
+Propagations in step: 3028510
+Found Real Makespan: 65
+Pushing New Limit to: 64
+
+--- STEP 23 ---
+Target Limit: 64
+Time left before solve: 1785.04s
+Result (is_sat): True
+Conflicts in step: 11162
+Propagations in step: 3736454
+Found Real Makespan: 64
+Pushing New Limit to: 63
+
+--- STEP 24 ---
+Target Limit: 63
+Time left before solve: 1784.09s
+Result (is_sat): True
+Conflicts in step: 10786
+Propagations in step: 5389671
+Found Real Makespan: 63
+Pushing New Limit to: 62
+
+--- STEP 25 ---
+Target Limit: 62
+Time left before solve: 1782.03s
+Result (is_sat): True
+Conflicts in step: 8901
+Propagations in step: 3298867
+Found Real Makespan: 62
+Pushing New Limit to: 61
+
+--- STEP 26 ---
+Target Limit: 61
+Time left before solve: 1781.19s
+Result (is_sat): True
+Conflicts in step: 13956
+Propagations in step: 4508513
+Found Real Makespan: 61
+Pushing New Limit to: 60
+
+--- STEP 27 ---
+Target Limit: 60
+Time left before solve: 1780.24s
+Result (is_sat): True
+Conflicts in step: 59817
+Propagations in step: 24041445
+Found Real Makespan: 60
+Pushing New Limit to: 59
+
+--- STEP 28 ---
+Target Limit: 59
+Time left before solve: 1773.59s
+Result (is_sat): True
+Conflicts in step: 34297
+Propagations in step: 14976542
+Found Real Makespan: 59
+Pushing New Limit to: 58
+
+--- STEP 29 ---
+Target Limit: 58
+Time left before solve: 1769.27s
+Result (is_sat): True
+Conflicts in step: 170720
+Propagations in step: 79854508
+Found Real Makespan: 58
+Pushing New Limit to: 57
+
+--- STEP 30 ---
+Target Limit: 57
+Time left before solve: 1747.04s
+Result (is_sat): True
+Conflicts in step: 835593
+Propagations in step: 394904209
+Found Real Makespan: 57
+Pushing New Limit to: 56
+
+--- STEP 31 ---
+Target Limit: 56
+Time left before solve: 1595.39s
+Result (is_sat): False
+Conflicts in step: 7446761
+Propagations in step: 3328666353
+INTERRUPTED BY TIMER OR TIMEOUT EXCEEDED.
+
+FINAL STATUS: TIME_OUT
+TOTAL ELAPSED TIME: 2357.83s

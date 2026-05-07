@@ -1,0 +1,21 @@
+START SOLVING | Test=mk08 | LB=523 | Timeout=4791.494267940521
+
+--- STEP 1 ---
+Target Limit: 528
+Time left before solve: 4789.52s
+Result (is_sat): True
+Conflicts in step: 23364132
+Propagations in step: 43841633075
+Found Real Makespan: 528
+Pushing New Limit to: 527
+
+--- STEP 2 ---
+Target Limit: 527
+Time left before solve: 44.51s
+Result (is_sat): None
+Conflicts in step: 145358
+Propagations in step: 277008715
+INTERRUPTED BY TIMER OR TIMEOUT EXCEEDED.
+
+FINAL STATUS: TIME_OUT
+TOTAL ELAPSED TIME: 4792.44s

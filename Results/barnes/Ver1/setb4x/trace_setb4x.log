@@ -1,0 +1,21 @@
+START SOLVING | Test=setb4x | LB=846 | Timeout=4792.728803873062
+
+--- STEP 1 ---
+Target Limit: 925
+Time left before solve: 4791.01s
+Result (is_sat): True
+Conflicts in step: 429060
+Propagations in step: 2406981540
+Found Real Makespan: 925
+Pushing New Limit to: 924
+
+--- STEP 2 ---
+Target Limit: 924
+Time left before solve: 4604.29s
+Result (is_sat): False
+Conflicts in step: 222903
+Propagations in step: 1918764689
+UNSAT at current limit. Final status: OPTIMAL
+
+FINAL STATUS: OPTIMAL
+TOTAL ELAPSED TIME: 377.50s

@@ -1,0 +1,66 @@
+START SOLVING | Test=seti5c12 | LB=1027 | Timeout=4790.000869035721
+
+--- STEP 1 ---
+Target Limit: 1174
+Time left before solve: 4787.56s
+Result (is_sat): True
+Conflicts in step: 667223
+Propagations in step: 4986686644
+Found Real Makespan: 1174
+Pushing New Limit to: 1173
+
+--- STEP 2 ---
+Target Limit: 1173
+Time left before solve: 4370.91s
+Result (is_sat): True
+Conflicts in step: 33352
+Propagations in step: 346578284
+Found Real Makespan: 1173
+Pushing New Limit to: 1172
+
+--- STEP 3 ---
+Target Limit: 1172
+Time left before solve: 4334.71s
+Result (is_sat): True
+Conflicts in step: 5638
+Propagations in step: 55299360
+Found Real Makespan: 1172
+Pushing New Limit to: 1171
+
+--- STEP 4 ---
+Target Limit: 1171
+Time left before solve: 4328.59s
+Result (is_sat): True
+Conflicts in step: 133
+Propagations in step: 1107356
+Found Real Makespan: 1171
+Pushing New Limit to: 1170
+
+--- STEP 5 ---
+Target Limit: 1170
+Time left before solve: 4328.12s
+Result (is_sat): True
+Conflicts in step: 8475
+Propagations in step: 96402480
+Found Real Makespan: 1170
+Pushing New Limit to: 1169
+
+--- STEP 6 ---
+Target Limit: 1169
+Time left before solve: 4317.55s
+Result (is_sat): True
+Conflicts in step: 4103
+Propagations in step: 32100342
+Found Real Makespan: 1169
+Pushing New Limit to: 1168
+
+--- STEP 7 ---
+Target Limit: 1168
+Time left before solve: 4313.83s
+Result (is_sat): False
+Conflicts in step: 12987
+Propagations in step: 135860935
+UNSAT at current limit. Final status: OPTIMAL
+
+FINAL STATUS: OPTIMAL
+TOTAL ELAPSED TIME: 491.33s

@@ -1,0 +1,68 @@
+{
+    "test_name": "sfjs04",
+    "model_applied": "best",
+    "run_index": 0,
+    "lb": 331,
+    "ub": 355,
+    "status": "OPTIMAL",
+    "time_seconds": 0.2141857147216797,
+    "makespan": 355,
+    "schedule": [
+        {
+            "id": 4,
+            "job_idx": 2,
+            "op_idx": 0,
+            "machine": 0,
+            "start": 0,
+            "duration": 125,
+            "end": 125
+        },
+        {
+            "id": 0,
+            "job_idx": 0,
+            "op_idx": 0,
+            "machine": 1,
+            "start": 17,
+            "duration": 63,
+            "end": 80
+        },
+        {
+            "id": 2,
+            "job_idx": 1,
+            "op_idx": 0,
+            "machine": 1,
+            "start": 80,
+            "duration": 120,
+            "end": 200
+        },
+        {
+            "id": 1,
+            "job_idx": 0,
+            "op_idx": 1,
+            "machine": 0,
+            "start": 125,
+            "duration": 87,
+            "end": 212
+        },
+        {
+            "id": 3,
+            "job_idx": 1,
+            "op_idx": 1,
+            "machine": 1,
+            "start": 203,
+            "duration": 152,
+            "end": 355
+        },
+        {
+            "id": 5,
+            "job_idx": 2,
+            "op_idx": 1,
+            "machine": 0,
+            "start": 212,
+            "duration": 143,
+            "end": 355
+        }
+    ],
+    "num_clauses": 93722,
+    "num_vars": 3142
+}

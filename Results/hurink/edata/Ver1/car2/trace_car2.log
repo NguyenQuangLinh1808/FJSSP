@@ -1,0 +1,12 @@
+START SOLVING | Test=car2 | LB=5929 | Timeout=4579.674993991852
+
+--- STEP 1 ---
+Target Limit: 6455
+Time left before solve: 4488.78s
+Result (is_sat): None
+Conflicts in step: 1280271
+Propagations in step: 27472614993
+INTERRUPTED BY TIMER OR TIMEOUT EXCEEDED.
+
+FINAL STATUS: TIME_OUT
+TOTAL ELAPSED TIME: 4725.62s

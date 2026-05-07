@@ -1,0 +1,21 @@
+START SOLVING | Test=mfjs07 | LB=764 | Timeout=4795.855588912964
+
+--- STEP 1 ---
+Target Limit: 879
+Time left before solve: 4794.83s
+Result (is_sat): True
+Conflicts in step: 15195
+Propagations in step: 22440318
+Found Real Makespan: 879
+Pushing New Limit to: 878
+
+--- STEP 2 ---
+Target Limit: 878
+Time left before solve: 4792.78s
+Result (is_sat): False
+Conflicts in step: 4569
+Propagations in step: 9558555
+UNSAT at current limit. Final status: OPTIMAL
+
+FINAL STATUS: OPTIMAL
+TOTAL ELAPSED TIME: 3.97s

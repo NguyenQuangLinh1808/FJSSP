@@ -1,0 +1,203 @@
+{
+    "test_name": "mfjs05",
+    "model_applied": "best",
+    "run_index": 0,
+    "lb": 414,
+    "ub": 514,
+    "status": "OPTIMAL",
+    "time_seconds": 1.5739948749542236,
+    "makespan": 514,
+    "schedule": [
+        {
+            "id": 0,
+            "job_idx": 0,
+            "op_idx": 0,
+            "machine": 2,
+            "start": 0,
+            "duration": 100,
+            "end": 100
+        },
+        {
+            "id": 9,
+            "job_idx": 3,
+            "op_idx": 0,
+            "machine": 1,
+            "start": 0,
+            "duration": 65,
+            "end": 65
+        },
+        {
+            "id": 15,
+            "job_idx": 5,
+            "op_idx": 0,
+            "machine": 3,
+            "start": 0,
+            "duration": 154,
+            "end": 154
+        },
+        {
+            "id": 6,
+            "job_idx": 2,
+            "op_idx": 0,
+            "machine": 0,
+            "start": 15,
+            "duration": 87,
+            "end": 102
+        },
+        {
+            "id": 12,
+            "job_idx": 4,
+            "op_idx": 0,
+            "machine": 1,
+            "start": 65,
+            "duration": 123,
+            "end": 188
+        },
+        {
+            "id": 10,
+            "job_idx": 3,
+            "op_idx": 1,
+            "machine": 4,
+            "start": 74,
+            "duration": 173,
+            "end": 247
+        },
+        {
+            "id": 18,
+            "job_idx": 6,
+            "op_idx": 0,
+            "machine": 2,
+            "start": 100,
+            "duration": 145,
+            "end": 245
+        },
+        {
+            "id": 7,
+            "job_idx": 2,
+            "op_idx": 1,
+            "machine": 6,
+            "start": 102,
+            "duration": 145,
+            "end": 247
+        },
+        {
+            "id": 3,
+            "job_idx": 1,
+            "op_idx": 0,
+            "machine": 0,
+            "start": 110,
+            "duration": 214,
+            "end": 324
+        },
+        {
+            "id": 16,
+            "job_idx": 5,
+            "op_idx": 1,
+            "machine": 3,
+            "start": 154,
+            "duration": 150,
+            "end": 304
+        },
+        {
+            "id": 1,
+            "job_idx": 0,
+            "op_idx": 1,
+            "machine": 1,
+            "start": 188,
+            "duration": 130,
+            "end": 318
+        },
+        {
+            "id": 19,
+            "job_idx": 6,
+            "op_idx": 1,
+            "machine": 2,
+            "start": 245,
+            "duration": 124,
+            "end": 369
+        },
+        {
+            "id": 11,
+            "job_idx": 3,
+            "op_idx": 2,
+            "machine": 5,
+            "start": 247,
+            "duration": 136,
+            "end": 383
+        },
+        {
+            "id": 13,
+            "job_idx": 4,
+            "op_idx": 1,
+            "machine": 6,
+            "start": 247,
+            "duration": 86,
+            "end": 333
+        },
+        {
+            "id": 8,
+            "job_idx": 2,
+            "op_idx": 2,
+            "machine": 4,
+            "start": 269,
+            "duration": 100,
+            "end": 369
+        },
+        {
+            "id": 2,
+            "job_idx": 0,
+            "op_idx": 2,
+            "machine": 3,
+            "start": 318,
+            "duration": 150,
+            "end": 468
+        },
+        {
+            "id": 4,
+            "job_idx": 1,
+            "op_idx": 1,
+            "machine": 1,
+            "start": 325,
+            "duration": 66,
+            "end": 391
+        },
+        {
+            "id": 17,
+            "job_idx": 5,
+            "op_idx": 2,
+            "machine": 6,
+            "start": 333,
+            "duration": 180,
+            "end": 513
+        },
+        {
+            "id": 20,
+            "job_idx": 6,
+            "op_idx": 2,
+            "machine": 4,
+            "start": 369,
+            "duration": 145,
+            "end": 514
+        },
+        {
+            "id": 5,
+            "job_idx": 1,
+            "op_idx": 2,
+            "machine": 5,
+            "start": 391,
+            "duration": 95,
+            "end": 486
+        },
+        {
+            "id": 14,
+            "job_idx": 4,
+            "op_idx": 2,
+            "machine": 1,
+            "start": 414,
+            "duration": 100,
+            "end": 514
+        }
+    ],
+    "num_clauses": 613071,
+    "num_vars": 14686
+}

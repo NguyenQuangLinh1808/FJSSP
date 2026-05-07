@@ -1,0 +1,2 @@
+Problem,Số job,số máy,Upper bound,Lower bound,Number of clause,Number of variable,Makespan,Status,Runtime
+01a,10,5,2518,2505,21370692,819516,-1,TIME_OUT,4801.58

@@ -1,0 +1,95 @@
+{
+    "test_name": "sfjs09",
+    "model_applied": "best",
+    "run_index": 0,
+    "lb": 210,
+    "ub": 210,
+    "status": "OPTIMAL",
+    "time_seconds": 0.07562088966369629,
+    "makespan": 210,
+    "schedule": [
+        {
+            "id": 0,
+            "job_idx": 0,
+            "op_idx": 0,
+            "machine": 1,
+            "start": 0,
+            "duration": 25,
+            "end": 25
+        },
+        {
+            "id": 3,
+            "job_idx": 1,
+            "op_idx": 0,
+            "machine": 2,
+            "start": 0,
+            "duration": 50,
+            "end": 50
+        },
+        {
+            "id": 6,
+            "job_idx": 2,
+            "op_idx": 0,
+            "machine": 0,
+            "start": 0,
+            "duration": 50,
+            "end": 50
+        },
+        {
+            "id": 1,
+            "job_idx": 0,
+            "op_idx": 1,
+            "machine": 0,
+            "start": 50,
+            "duration": 40,
+            "end": 90
+        },
+        {
+            "id": 7,
+            "job_idx": 2,
+            "op_idx": 1,
+            "machine": 1,
+            "start": 50,
+            "duration": 70,
+            "end": 120
+        },
+        {
+            "id": 2,
+            "job_idx": 0,
+            "op_idx": 2,
+            "machine": 2,
+            "start": 90,
+            "duration": 60,
+            "end": 150
+        },
+        {
+            "id": 4,
+            "job_idx": 1,
+            "op_idx": 1,
+            "machine": 0,
+            "start": 90,
+            "duration": 50,
+            "end": 140
+        },
+        {
+            "id": 8,
+            "job_idx": 2,
+            "op_idx": 2,
+            "machine": 1,
+            "start": 120,
+            "duration": 90,
+            "end": 210
+        },
+        {
+            "id": 5,
+            "job_idx": 1,
+            "op_idx": 2,
+            "machine": 2,
+            "start": 150,
+            "duration": 60,
+            "end": 210
+        }
+    ],
+    "num_clauses": 32403,
+    "num_vars": 2219
+}
