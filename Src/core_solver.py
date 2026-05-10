@@ -20,6 +20,7 @@ from constraints_ver2.c5_ver2 import apply_c5_ver2
 from constraints_ver2.c6_c7_ver2 import apply_c6_c7_ver2
 from constraints_ver2.energetic_exclusion import apply_energetic_exclusion
 from constraints_ver2.incremental_ver2 import apply_incremental_ver2
+from constraints_ver2.c6_c7_v3 import apply_c6_c7_v3
 from constraints.y import apply_y
 from constraints.c2 import apply_c2
 from constraints.c3 import apply_c3
@@ -207,6 +208,27 @@ class FJSSP_SAT:
         apply_c4_ver2(self)
         apply_c5_ver2(self)
         apply_c6_c7_ver2(self)
+        self.incremental_func = apply_incremental_ver2
+
+    def build_model_10(self):
+        """
+        Kiến trúc đỉnh cao: Thuần Incremental, xử lý Overlap bằng c6_c7_v3 đóng gói.
+        Tuyệt đối KHÔNG recompute thủ công để tránh phá vỡ state của Unit Propagation.
+        """
+        self.calculate_time_windows()
+
+        # Tiền xử lý bơm Unit Clause để CaDiCaL tự cắt nhánh sau này
+        apply_energetic_exclusion(self)
+
+        # Bơm Constraint Cốt lõi
+        apply_c2_ver2(self)
+        apply_c3_ver2(self)
+        apply_c4_ver2(self)
+        apply_c5_ver2(self)
+
+        # Bơm Overlap Hợp nhất (Tự động lo liệu việc sinh biến A mỏ neo)
+        apply_c6_c7_v3(self)
+
         self.incremental_func = apply_incremental_ver2
 
     def constraint_incremental(self, new_limit):
