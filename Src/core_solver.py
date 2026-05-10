@@ -324,8 +324,6 @@ import time
 import gc
 from collections import defaultdict
 
-from Src.constraints_ver2.incremental_ver2 import apply_incremental_ver2
-
 try:
     from pysat.formula import CNF
     from pysat.solvers import Solver
@@ -340,6 +338,8 @@ from constraints_ver2.c3_ver2 import apply_c3_ver2
 from constraints_ver2.c4_ver2 import apply_c4_ver2
 from constraints_ver2.c5_ver2 import apply_c5_ver2
 from constraints_ver2.c6_c7_ver2 import apply_c6_c7_ver2
+from constraints_ver2.energetic_exclusion import apply_energetic_exclusion
+from constraints_ver2.incremental_ver2 import apply_incremental_ver2
 from constraints.y import apply_y
 from constraints.c2 import apply_c2
 from constraints.c3 import apply_c3
@@ -526,6 +526,7 @@ class FJSSP_SAT:
 
     def build_model_9(self):
         self.calculate_time_windows()
+        apply_energetic_exclusion(self)
         apply_c2_ver2(self)
         apply_c3_ver2(self)
         apply_c4_ver2(self)
