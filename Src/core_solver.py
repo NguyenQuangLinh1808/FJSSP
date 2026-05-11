@@ -400,7 +400,8 @@ from constraints_ver2.c5_ver2 import apply_c5_ver2
 from constraints_ver2.c6_c7_ver2 import apply_c6_c7_ver2
 from constraints_ver2.energetic_exclusion import apply_energetic_exclusion
 from constraints_ver2.incremental_ver2 import apply_incremental_ver2
-# Bỏ import c6_c7_v3 vì chúng ta xác nhận nó mang lại overhead của biến A
+from constraints_ver2.c5_ver3 import apply_c5_ver3
+from constraints_ver2.incremental_v3 import apply_incremental_v3
 from constraints.y import apply_y
 from constraints.c2 import apply_c2
 from constraints.c3 import apply_c3
@@ -666,6 +667,36 @@ class FJSSP_SAT:
 
         # Sử dụng cơ chế Incremental mới có tích hợp Pair Re-exclusion
         self.incremental_func = apply_incremental_ver2
+
+    def build_model_11(self):
+        """
+        Kiến trúc Model 11:
+        1. Lọc Tautology chặn rác (add_clause_smart)
+        2. Tối ưu At-Most-One (C5_ver3) hạn chế biến phụ.
+        3. Cắt tỉa Động Toàn Chuỗi (Incremental v3 - Chain Blocking & Re-exclusion).
+        """
+        # 1. Tính toán biên thời gian
+        self.calculate_time_windows()
+
+        # 2. Tiền xử lý (Chỉ quét 1 lần, ném Unit Clause để CaDiCaL tự lan truyền)
+        apply_energetic_exclusion(self)
+
+        # 3. Đăng ký biến X vào tập forced_vars và bơm vào CNF
+        self.apply_time_window_clauses()
+
+        # 4. Bơm Constraint Cốt lõi
+        apply_c2_ver2(self)
+        apply_c3_ver2(self)
+        apply_c4_ver2(self)
+
+        # SỬ DỤNG Adaptive Exactly-One
+        apply_c5_ver3(self)
+
+        # SỬ DỤNG Overlap siêu nén (Không biến A, không biến SM)
+        apply_c6_c7_ver2(self)
+
+        # 5. Cơ chế Incremental Mới: Ép tiến độ toàn chuỗi và Cắt sức chứa động
+        self.incremental_func = apply_incremental_v3
 
     def constraint_incremental(self, new_limit):
         if hasattr(self, 'incremental_func') and callable(self.incremental_func):
