@@ -399,6 +399,8 @@ from constraints_ver2.c4_ver2 import apply_c4_ver2
 from constraints_ver2.c4_ver3 import apply_c4_ver3
 from constraints_ver2.c4_ver4 import apply_c4_ver4
 from constraints_ver2.c5_ver2 import apply_c5_ver2
+from constraints_ver2.mvcc import apply_mvcc
+from constraints_ver2.mclb import apply_mclb
 from constraints_ver2.c6_c7_ver2 import apply_c6_c7_ver2
 from constraints_ver2.c_lastop_active import apply_lastop_active
 from constraints_ver2.energetic_exclusion import apply_energetic_exclusion
@@ -703,30 +705,23 @@ class FJSSP_SAT:
         self.incremental_func = apply_incremental_v3
 
     def build_model_12(self):
-        """
-        Model 12 (Sniper Mode): Tối đa hoá tốc độ chứng minh UNSAT.
-        Kết hợp độ nén của X/S với biến A định hướng (Targeted) chỉ cho Last Ops.
-        """
         self.calculate_time_windows()
 
-        # Tiền xử lý tĩnh
         apply_energetic_exclusion(self)
         apply_energetic_pair_exclusion(self)
         self.apply_time_window_clauses()
 
-        # Constraints Toán học Cốt lõi
         apply_c2_ver2(self)
         apply_c3_ver2(self)
-        apply_c4_ver3(self)  # O(1) Blocking đuôi
+        apply_c4_ver3(self)  # O(1) Blocking
         apply_c5_ver3(self)  # Adaptive AMO
 
-        # Ràng buộc Overlap Chính (Siêu nén)
-        apply_c6_c7_ver2(self)
+        apply_c6_c7_ver2(self)  # X/S Overlap
 
-        # Đòn Sniper: Bơm biến A cho riêng cụm Last Ops để ép xung đột UNSAT nhanh
-        apply_lastop_active(self)
+        # Đòn đánh Resolution Depth
+        apply_mvcc(self)  # Chém M-Variable tĩnh
+        apply_mclb(self)  # Kẹp chuỗi 3
 
-        # Cắt tỉa Động Toàn chuỗi
         self.incremental_func = apply_incremental_v3
 
     def constraint_incremental(self, new_limit):
