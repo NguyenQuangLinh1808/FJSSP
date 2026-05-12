@@ -397,9 +397,11 @@ from constraints_ver2.c2_ver2 import apply_c2_ver2
 from constraints_ver2.c3_ver2 import apply_c3_ver2
 from constraints_ver2.c4_ver2 import apply_c4_ver2
 from constraints_ver2.c4_ver3 import apply_c4_ver3
+from constraints_ver2.c4_ver4 import apply_c4_ver4
 from constraints_ver2.c5_ver2 import apply_c5_ver2
 from constraints_ver2.c6_c7_ver2 import apply_c6_c7_ver2
 from constraints_ver2.energetic_exclusion import apply_energetic_exclusion
+from constraints_ver2.energetic_pair_exclusion import apply_energetic_pair_exclusion
 from constraints_ver2.incremental_ver2 import apply_incremental_ver2
 from constraints_ver2.c5_ver3 import apply_c5_ver3
 from constraints_ver2.incremental_v3 import apply_incremental_v3
@@ -697,6 +699,32 @@ class FJSSP_SAT:
         apply_c6_c7_ver2(self)
 
         # 5. Cơ chế Incremental Mới: Ép tiến độ toàn chuỗi và Cắt sức chứa động
+        self.incremental_func = apply_incremental_v3
+
+    def build_model_12(self):
+        """
+        Model 12: Đỉnh cao tinh giản.
+        Loại bỏ hoàn toàn Overhead. Áp dụng Cấm Cặp & Chặt đuôi O(1).
+        """
+        self.calculate_time_windows()
+
+        # 1. Tiền xử lý (Cấm máy Đơn & Cấm Cặp)
+        apply_energetic_exclusion(self)
+        apply_energetic_pair_exclusion(self)
+
+        # 2. Chốt Tautology Variables
+        self.apply_time_window_clauses()
+
+        # 3. Bơm Constraints Cốt lõi
+        apply_c2_ver2(self)
+        apply_c3_ver2(self)
+        apply_c4_ver4(self)  # Bản chặt đuôi O(1)
+        apply_c5_ver3(self)  # Pairwise AMO tối ưu biến rác
+
+        # 4. Overlap siêu nén không biến A/SM
+        apply_c6_c7_ver2(self)
+
+        # 5. Cắt tỉa Incremental Toàn chuỗi
         self.incremental_func = apply_incremental_v3
 
     def constraint_incremental(self, new_limit):
