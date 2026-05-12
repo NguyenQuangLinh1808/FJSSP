@@ -396,6 +396,7 @@ from constraints.x import apply_x
 from constraints_ver2.c2_ver2 import apply_c2_ver2
 from constraints_ver2.c3_ver2 import apply_c3_ver2
 from constraints_ver2.c4_ver2 import apply_c4_ver2
+from constraints_ver2.c4_ver3 import apply_c4_ver3
 from constraints_ver2.c5_ver2 import apply_c5_ver2
 from constraints_ver2.c6_c7_ver2 import apply_c6_c7_ver2
 from constraints_ver2.energetic_exclusion import apply_energetic_exclusion
@@ -687,7 +688,7 @@ class FJSSP_SAT:
         # 4. Bơm Constraint Cốt lõi
         apply_c2_ver2(self)
         apply_c3_ver2(self)
-        apply_c4_ver2(self)
+        apply_c4_ver3(self)
 
         # SỬ DỤNG Adaptive Exactly-One
         apply_c5_ver3(self)
