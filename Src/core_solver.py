@@ -703,28 +703,29 @@ class FJSSP_SAT:
 
     def build_model_12(self):
         """
-        Model 12: Đỉnh cao tinh giản.
-        Loại bỏ hoàn toàn Overhead. Áp dụng Cấm Cặp & Chặt đuôi O(1).
+        Model 12 (Sniper Mode): Tối đa hoá tốc độ chứng minh UNSAT.
+        Kết hợp độ nén của X/S với biến A định hướng (Targeted) chỉ cho Last Ops.
         """
         self.calculate_time_windows()
 
-        # 1. Tiền xử lý (Cấm máy Đơn & Cấm Cặp)
+        # Tiền xử lý tĩnh
         apply_energetic_exclusion(self)
         apply_energetic_pair_exclusion(self)
-
-        # 2. Chốt Tautology Variables
         self.apply_time_window_clauses()
 
-        # 3. Bơm Constraints Cốt lõi
+        # Constraints Toán học Cốt lõi
         apply_c2_ver2(self)
         apply_c3_ver2(self)
-        apply_c4_ver4(self)  # Bản chặt đuôi O(1)
-        apply_c5_ver3(self)  # Pairwise AMO tối ưu biến rác
+        apply_c4_ver3(self)  # O(1) Blocking đuôi
+        apply_c5_ver3(self)  # Adaptive AMO
 
-        # 4. Overlap siêu nén không biến A/SM
+        # Ràng buộc Overlap Chính (Siêu nén)
         apply_c6_c7_ver2(self)
 
-        # 5. Cắt tỉa Incremental Toàn chuỗi
+        # Đòn Sniper: Bơm biến A cho riêng cụm Last Ops để ép xung đột UNSAT nhanh
+        apply_lastop_active(self)
+
+        # Cắt tỉa Động Toàn chuỗi
         self.incremental_func = apply_incremental_v3
 
     def constraint_incremental(self, new_limit):
