@@ -400,6 +400,7 @@ from constraints_ver2.c4_ver3 import apply_c4_ver3
 from constraints_ver2.c4_ver4 import apply_c4_ver4
 from constraints_ver2.c5_ver2 import apply_c5_ver2
 from constraints_ver2.c6_c7_ver2 import apply_c6_c7_ver2
+from constraints_ver2.c_lastop_active import apply_lastop_active
 from constraints_ver2.energetic_exclusion import apply_energetic_exclusion
 from constraints_ver2.energetic_pair_exclusion import apply_energetic_pair_exclusion
 from constraints_ver2.incremental_ver2 import apply_incremental_ver2
