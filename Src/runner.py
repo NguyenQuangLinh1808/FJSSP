@@ -606,7 +606,7 @@ import subprocess
 from io_utils import parse_fjssp_file, load_result_from_file, save_result_to_file
 from validator import get_heuristic_bound, validate_solution
 
-TIMEOUT = 1800
+TIMEOUT = 10800
 
 def rescue_data_from_log(log_filepath):
     if not os.path.exists(log_filepath):
