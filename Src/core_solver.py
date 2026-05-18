@@ -399,6 +399,8 @@ from constraints_ver2.c4_ver2 import apply_c4_ver2
 from constraints_ver2.c4_ver3 import apply_c4_ver3
 from constraints_ver2.c4_ver4 import apply_c4_ver4
 from constraints_ver2.c5_ver2 import apply_c5_ver2
+from constraints_ver2.c6_c7_no_sm import apply_c6_c7_no_sm
+from constraints_ver2.mvcc import apply_mvcc
 from constraints_ver2.mvcc import apply_mvcc
 from constraints_ver2.mclb import apply_mclb
 from constraints_ver2.c6_c7_ver2 import apply_c6_c7_ver2
@@ -705,24 +707,56 @@ class FJSSP_SAT:
         self.incremental_func = apply_incremental_v3
 
     def build_model_12(self):
+        """
+        Model 12 (Ultimate Proof Complexity):
+        Đỉnh cao của SAT Encoding cho FJSSP dựa trên năng lượng (Energetic Reasoning).
+        Sử dụng MVCC và MCLB để tạo ra UNSAT Certificate ngắn nhất (Độ sâu = 1).
+        """
         self.calculate_time_windows()
 
+        # 1. Tiền xử lý tĩnh
         apply_energetic_exclusion(self)
         apply_energetic_pair_exclusion(self)
+
         self.apply_time_window_clauses()
 
+        # 2. Constraints Toán học Cốt lõi
         apply_c2_ver2(self)
         apply_c3_ver2(self)
-        apply_c4_ver3(self)  # O(1) Blocking
-        apply_c5_ver3(self)  # Adaptive AMO
+        apply_c4_ver3(self)  # O(1) Blocking đuôi
+        apply_c5_ver3(self)  # Adaptive AMO (Không biến phụ)
 
-        apply_c6_c7_ver2(self)  # X/S Overlap
+        # 3. Ràng buộc Overlap Chính (Siêu nén X/S)
+        apply_c6_c7_ver2(self)
 
-        # Đòn đánh Resolution Depth
-        apply_mvcc(self)  # Chém M-Variable tĩnh
-        apply_mclb(self)  # Kẹp chuỗi 3
+        # 4. ĐÒN ĐÁNH RESOLUTION DEPTH (Chứng minh UNSAT siêu tốc)
+        apply_mvcc(self)  # Chém M-Variable tĩnh (Hộp năng lượng)
+        apply_mclb(self)  # Kẹp chuỗi 3 bắt buộc
 
+        # 5. Cắt tỉa Động Toàn chuỗi
         self.incremental_func = apply_incremental_v3
+
+    def build_model_13(self):
+        self.calculate_time_windows()
+        self.apply_time_window_clauses()
+
+        # Gọi trực tiếp, không kiểm tra ngớ ngẩn
+        apply_energetic_exclusion(self)
+
+        # MVCC Global Cut
+        apply_mvcc(self)
+
+        # Constraints gốc
+        apply_c2_ver2(self)
+        apply_c3_ver2(self)
+        apply_c4_ver2(self)
+        apply_c5_ver2(self)
+
+        # Ràng buộc Overlap nén sâu (Đã sửa lỗi dấu)
+        apply_c6_c7_no_sm(self)
+
+        # Tích hợp Incremental chặn cả X và M
+        self.incremental_func = apply_incremental_ver2
 
     def constraint_incremental(self, new_limit):
         if hasattr(self, 'incremental_func') and callable(self.incremental_func):
